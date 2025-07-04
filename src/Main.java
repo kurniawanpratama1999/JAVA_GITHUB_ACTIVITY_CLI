@@ -1,4 +1,5 @@
-import controllers.UserEvent;
+import controllers.UserController;
+import services.UserServices;
 
 import java.util.Scanner;
 
@@ -15,8 +16,8 @@ public class Main {
 
                 if (username.equalsIgnoreCase("exit")) break;
 
-                UserEvent event = new UserEvent(username);
-                event.getList();
+                UserServices services = new UserServices();
+                services.activity(username);
             }
 
             System.out.println("Program Berhenti");
