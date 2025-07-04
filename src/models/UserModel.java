@@ -1,7 +1,5 @@
 package models;
 
-import java.time.LocalDateTime;
-
 public class UserModel {
     private final String username;
     private final String endpoint;

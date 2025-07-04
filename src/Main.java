@@ -1,4 +1,3 @@
-import controllers.UserController;
 import services.UserServices;
 
 import java.util.Scanner;
