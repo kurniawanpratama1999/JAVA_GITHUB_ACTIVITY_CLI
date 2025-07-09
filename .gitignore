@@ -2,6 +2,9 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+JAVA_GITHUB_ACTIVITY_CLI.iml
+lib/
+.idea/
 
 ### Eclipse ###
 .apt_generated
